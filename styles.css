@@ -6,10 +6,9 @@ body, html {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 h1 {
@@ -34,18 +33,18 @@ h1 {
     background-color: darkblue;
     margin-bottom: 10px;
     opacity: 70%;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 60px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .clock .text {
-    height: 30px;
-    font-size: 15px;
+    height: 50px;
+    font-size: 25px;
     letter-spacing: 3px;
     background-color: darkcyan;
     color: black;
@@ -56,7 +55,7 @@ h1 {
     height: 40px;
     width: 60px;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: cadetblue;
     color: rgb(39, 62, 63)
 }
